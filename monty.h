@@ -85,49 +85,27 @@ unsigned int idx;
 extern global_t var;
 
 void free_var(void);
-
 void free_stack(void);
-
 void run_cmd(char *bufline);
-
 void (*get_cmd(void))(stack_t **head, unsigned int line_number);
-
 void erro(int code, ...);
-
 void erro_ext(int code, int va_arg);
-
 char *ivstg(char *operand, unsigned int line_number);
-
 void pusher(stack_t **stack, unsigned int line_number);
-
 void paller(stack_t **stack, unsigned int line_number);
-
 void pinter(stack_t **stack, unsigned int line_number);
-
 void popper(stack_t **stack, unsigned int line_number);
-
 void swapper(stack_t **stack, unsigned int line_number);
-
 void adder(stack_t **stack, unsigned int line_number);
-
 void subber(stack_t **stack, unsigned int line_number);
-
 void divider(stack_t **stack, unsigned int line_number);
-
 void multpler(stack_t **stack, unsigned int line_number);
-
 void modder(stack_t **stack, unsigned int line_number);
-
 void nopper(stack_t **stack, unsigned int line_number);
-
 void pchar(stack_t **stack, unsigned int line_number);
-
 void rotl(stack_t **stack, unsigned int line_number);
-
 void rotr(stack_t **stack, unsigned int line_number);
-
 void pstr(stack_t **stack, unsigned int line_number);
-
 void changemode(stack_t **stack, unsigned int line_number);
 
 #endif
