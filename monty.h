@@ -1,26 +1,15 @@
 #ifndef MONTY_H
-
 #define MONTY_H
 
-
-
 #define _POSIX_C_SOURCE  200809L
-
 #define _GNU_SOURCE
 
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <string.h>
-
 #include <ctype.h>
-
 #include <unistd.h>
-
 #include <stdarg.h>
-
-
 
 #define UNDEFINED 0
 
@@ -158,7 +147,5 @@ void rotr(stack_t **stack, unsigned int line_number);
 void pstr(stack_t **stack, unsigned int line_number);
 
 void changemode(stack_t **stack, unsigned int line_number);
-
-
 
 #endif
