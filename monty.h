@@ -12,41 +12,23 @@
 #include <stdarg.h>
 
 #define UNDEFINED 0
-
 #define DELIM " \r\t\n"
-
 #define USAGE "USAGE: monty file\n"
-
 #define NOACCESS "Error: Can't open file %s\n"
-
 #define INVALID "L%d: unknown instruction %s\n"
-
 #define MALLOC "Error: malloc failed\n"
-
 #define PUSH "L%d: usage: push integer\n"
-
 #define POP "L%d: can't pop an empty stack\n"
-
 #define PINT "L%d: can't pint, stack empty\n"
-
 #define SWAP "L%d: can't swap, stack too short\n"
-
 #define ADD "L%d: can't add, stack too short\n"
-
 #define SUB "L%d: can't sub, stack too short\n"
-
 #define DIV "L%d: can't div, stack too short\n"
-
 #define DERR "L%d: division by zero\n"
-
 #define MUL "L%d: can't mul, stack too short\n"
-
 #define MOD "L%d: can't mod, stack too short\n"
-
 #define PCHAR "L%d: can't pchar, stack empty\n"
-
 #define RANGE "L%d: can't pchar, value out of range\n"
-
 
 /**
 * struct stack_s - doubly linked list representation of a stack (or queue)
